@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -21,14 +22,17 @@ body{
 } 
 
 .apresentacao{
-    margin: 10%;
+    margin: 10% 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .apresentacao__tiltulo{
@@ -41,3 +45,22 @@ body{
     font-family: 'Amatic SC', cursive;
 
 }
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links_link{
+    margin: 0 none;
+    text-align: center;
+    width: 280px;
+    font-size: 15px;
+    background-color: aqua;
+    border-radius: 14px;
+    color: black;
+    padding: 21px,0;
+    font-family: 'Merienda One', cursive;
+    text-decoration: none;
+}
+
