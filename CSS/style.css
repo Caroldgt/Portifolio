@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.titulo{
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
