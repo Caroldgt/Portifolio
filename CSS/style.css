@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -13,8 +15,9 @@ body{
 
 .titulo{
     color: #22D4FD;
+    font-size: 28px;
     border: 1px solid #22D4FD;
-    padding: 10px;
+    padding: 7px;
 } 
 
 .apresentacao{
@@ -22,4 +25,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+}
+
+.apresentacao__tiltulo{
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+}
+
+.apresentacao__texto{
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+
 }
