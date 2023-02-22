@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -41,26 +43,40 @@ body{
 }
 
 .apresentacao__texto{
-    font-size: 20px;
-    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
 
 }
 
 .apresentacao__links{
+
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
     justify-content: space-between;
 }
 
+.apresentacao_subtiltulo{
+    
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+
+
+
+
 .apresentacao__links_link{
-    margin: 0 none;
+    color: #ffffff;
     text-align: center;
-    width: 280px;
-    font-size: 15px;
-    background-color: aqua;
-    border-radius: 14px;
-    color: black;
-    padding: 21px,0;
-    font-family: 'Merienda One', cursive;
+    width: 378px;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    border: 2px solid #22D4FD;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
     text-decoration: none;
+    
 }
 
