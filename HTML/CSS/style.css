@@ -31,11 +31,16 @@ body{
 .cabecalho__link{
 
     color: #22D4FD;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 400;
     font-family: 'Catamaran', sans-serif;
+    text-decoration: none;
 }
 
+.cabecalho__link:hover{
+    color: #a2ced8;
+    font-size: 26px;
+}
 
 .titulo{
     color: #22D4FD;
@@ -105,18 +110,20 @@ body{
     font-size: 26px;
 }
 
-
-
-.rodape{
-    font-size: 22px;
+.footer { 
+    position:absolute; 
+    bottom:0; 
+    width:100%;
+    font-size: 19px;
     color: black;
     text-align: center;
-    padding: 24px;
+    padding: 20px;
     background-color: #0e849f;
     font-weight: 200;
     font-family: 'Catamaran', sans-serif;
-    
-}
+  }
+
+
 
 
 
