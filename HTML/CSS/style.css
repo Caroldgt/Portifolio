@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -10,11 +11,31 @@
 
 
 body{
-    height: 100vh;
+    
     box-sizing: border-box;
     background-color: black;
     color: white;
 }
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__link{
+
+    color: #22D4FD;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+}
+
 
 .titulo{
     color: #22D4FD;
@@ -24,7 +45,7 @@ body{
 } 
 
 .apresentacao{
-    margin: 10% 20%;
+    padding: 6% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,21 +83,44 @@ body{
     font-family: 'Catamaran', sans-serif;
 }
 
-
-
-
-
-
 .apresentacao__links_link{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
     color: #ffffff;
     text-align: center;
-    width: 378px;
+    width: 370px;
     padding: 21.5px 0;
-    border-radius: 8px;
+    border-radius: 7px;
     border: 2px solid #22D4FD;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Catamaran', sans-serif;
     text-decoration: none;
     
 }
+
+.apresentacao__links_link:hover{
+    background-color: #272727;
+    font-size: 26px;
+}
+
+
+
+.rodape{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    padding: 24px;
+    background-color: #0e849f;
+    font-weight: 200;
+    font-family: 'Catamaran', sans-serif;
+    
+}
+
+
+
+
+
+
 
