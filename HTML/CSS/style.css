@@ -125,4 +125,27 @@ body {
     font-family: 'Catamaran', sans-serif;
 }
 
-.apresentacao__imgem {}
+@media((max-width: 600px)){
+
+    body{
+        background-color: #272727;
+    }
+    .apresentacao{
+        
+        flex-direction: column-reverse;
+    }
+
+    .cabecalho__menu{
+        display: flex;
+        gap: 8px;
+        
+    }
+
+    .cabecalho{
+        padding: 6%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
