@@ -129,30 +129,18 @@ body {
 
 
 
-@media (min-width: 480px ) and (max-width: 800px) {
-
-    body{
-        background-color: #272727;
-    }
-
+@media (max-width: 1200px) {
     .cabecalho{
-        padding: 10%;
+         padding: 10%;  
     }
-
     .cabecalho__menu{
         justify-content: center;
     }
-
     .apresentacao{
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 5%;
     }
-
     .apresentacao__conteudo{
         width: auto;
-    }
-
-    .footer{
-        position: relative;
     }
 }
