@@ -4,77 +4,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
-*{
+
+* {
     margin: 0%;
     padding: 0%;
 }
 
 
-body{
-    
+body {
+
     box-sizing: border-box;
     background-color: black;
     color: white;
 }
 
-.cabecalho{
+.cabecalho {
     padding: 2% 0 0 15%;
 
 }
 
-.cabecalho__menu{
+.cabecalho__menu {
     display: flex;
     gap: 80px;
 
 }
 
-.cabecalho__link{
+.cabecalho__link {
 
     color: #22D4FD;
-    font-size: 22px;
+    font-size: 1.3rem;
     font-weight: 400;
     font-family: 'Catamaran', sans-serif;
     text-decoration: none;
 }
 
-.cabecalho__link:hover{
+.cabecalho__link:hover {
     color: #a2ced8;
-    font-size: 26px;
+    font-size: 1.7rem;
 }
 
-.titulo{
+.titulo {
     color: #22D4FD;
-    font-size: 28px;
+    font-size: 1.8rem;
     border: 1px solid #22D4FD;
     padding: 7px;
-} 
+}
 
-.apresentacao{
+.apresentacao {
     padding: 2% 13%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
-.apresentacao__conteudo{
-    width: 640px;
+.apresentacao__conteudo {
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.apresentacao__tiltulo{
-    font-size: 30px;
+.apresentacao__tiltulo {
+    font-size: 1.9rem;
     font-family: 'Merienda One', cursive;
 }
 
-.apresentacao__texto{
-    font-size: 24px;
+.apresentacao__texto {
+    font-size: 1.5rem;
     font-family: 'Catamaran', sans-serif;
 
 }
 
-.apresentacao__links{
+.apresentacao__links {
 
     display: flex;
     flex-direction: column;
@@ -83,12 +85,12 @@ body{
     justify-content: space-between;
 }
 
-.apresentacao_subtiltulo{
-    
+.apresentacao_subtiltulo {
+
     font-family: 'Catamaran', sans-serif;
 }
 
-.apresentacao__links_link{
+.apresentacao__links_link {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -99,35 +101,28 @@ body{
     padding: 21.5px 0;
     border-radius: 7px;
     border: 2px solid #22D4FD;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: 'Catamaran', sans-serif;
     text-decoration: none;
-    
+
 }
 
-.apresentacao__links_link:hover{
+.apresentacao__links_link:hover {
     background-color: #272727;
-    font-size: 26px;
+    font-size: 1.6rem;
 }
 
-.footer { 
-    position:absolute; 
-    bottom:0; 
-    width:100%;
-    font-size: 19px;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
     color: black;
     text-align: center;
     padding: 20px;
     background-color: #0e849f;
     font-weight: 200;
     font-family: 'Catamaran', sans-serif;
-  }
+}
 
-
-
-
-
-
-
-
-
+.apresentacao__imgem {}

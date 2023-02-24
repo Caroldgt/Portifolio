@@ -3,15 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 
 
-.apresentacao__tiltulo2{ 
-    font-size: 40px;
+.apresentacao__tiltulo2 {
+    font-size: 2.5rem;
     font-family: 'Merienda One', cursive;
 
 }
-.apresentacao__titulo__curriculo{
+
+.apresentacao__titulo__curriculo {
     display: flex;
-    
-    font-size: 26px;
+
+    font-size: 1.7rem;
     color: #22D4FD;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 40px;
@@ -19,31 +20,32 @@
     gap: 10;
 }
 
-.certificado{
+.certificado {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Marcellus SC', serif;
 }
-.certificado:hover{
-    font-size: 26px;
+
+.certificado:hover {
+    font-size: 1.7rem;
 }
 
-.imagens_icons{
+.imagens_icons {
     padding: 10px;
-    
+
 }
 
-.links{
+.links {
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
-.links:hover{
+.links:hover {
     color: #00758f;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
-img, li{
+img, li {
     align-items: center;
 }
