@@ -142,4 +142,8 @@ body {
     .apresentacao{
         flex-direction: column;
     }
+
+    .footer{
+        position: relative;
+    }
 }
